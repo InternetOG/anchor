@@ -9,7 +9,7 @@ import ErrorBoundary from './pages/ErrorBoundary'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/anchor" element={<RootLayout />} errorElement={<ErrorBoundary />}>
+    <Route path="/" element={<RootLayout />} errorElement={<ErrorBoundary />}>
       <Route index element={<Home />} />
       <Route path="shop" element={<Shop />} />
       <Route path="faq" element={<Faq />} />
