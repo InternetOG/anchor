@@ -11,11 +11,11 @@ const HeroHome = ({data}) => {
             <Link to="shop" className='inline-block mt-[1rem] border border-solid border-[#FC5959] rounded px-[4rem] bg-[#FC5959] py-[.6rem]'>Visit Shop</Link>
         </section>
         <section className='flex items-center justify-between gap-10 mt-[10rem] bg-white border px-5 py-5'>
-            <div className=""><img src="/src/assets/home/google.png" alt="" /></div>
-            <div className=""><img src="/src/assets/home/forbes.png" alt="" /></div>
-            <div className=""><img src="/src/assets/home/bloomberg.png" alt="" /></div>
-            <div className=""><img src="/src/assets/home/sleepreview.png" alt="" /></div>
-            <div className=""><img src="/src/assets/home/influencive.png" alt="" /></div>
+            <div className=""><img src="./src/assets/home/google.png" alt="" /></div>
+            <div className=""><img src="./src/assets/home/forbes.png" alt="" /></div>
+            <div className=""><img src="./src/assets/home/bloomberg.png" alt="" /></div>
+            <div className=""><img src="./src/assets/home/sleepreview.png" alt="" /></div>
+            <div className=""><img src="./src/assets/home/influencive.png" alt="" /></div>
         </section>
     </section>
   )
