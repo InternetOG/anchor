@@ -25,7 +25,7 @@ const Testimony = () => {
                     <p className='text-[#4D533C]'><i>I’m a very anxious person but use this and feel so relaxed and sleep way better now with the aid of sleepstiq. </i></p>
                     <section className='flex items-center gap-5 mt-6'>
                         <div>
-                            <img src="/public/home/miller.png" className='rounded-full' alt="miller's img" />
+                            <img src="/public/assets/home/miller.png" className='rounded-full' alt="miller's img" />
                         </div>
 
                         <div>
