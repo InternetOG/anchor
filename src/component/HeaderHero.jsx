@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import heroimage from "../assets/home/heroimage.png"
 import Header from './Header'
 import HeroSection from "./HeroSection"
 import { useLocation } from 'react-router-dom'
@@ -16,16 +15,16 @@ const HeaderHero = () => {
     switch(removePath) {
 
       case "home":
-        return "/src/assets/home/heroimage.png";
+        return "/assets/home/heroimage.png";
         
       case "shop":
-        return "/src/assets/shop/heroimg.png";
+        return "/assets/shop/heroimg.png";
 
       case "faq":
         return "#FBF9F2";
 
       default:
-        return "/src/assets/shop/heroimg.png";
+        return "/assets/shop/heroimg.png";
     }
   }
 
