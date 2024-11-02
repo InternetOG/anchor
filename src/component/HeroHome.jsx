@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import google from "../assets/home/google.png"
+import forbes from "../assets/home/forbes.png"
+import bloomberg from "../assets/home/bloomberg.png"
+import sleepreview from "../assets/home/sleepreview.png"
+import influencive from "../assets/home/influencive.png"
 
 const HeroHome = ({data}) => {
   return (
@@ -13,10 +17,10 @@ const HeroHome = ({data}) => {
         </section>
         <section className='flex items-center justify-between gap-10 mt-[10rem] bg-white border px-5 py-5'>
             <div className=""><img src={google} alt="" /></div>
-            <div className=""><img src="../assets/home/forbes.png" alt="" /></div>
-            <div className=""><img src="../assets/home/bloomberg.png" alt="" /></div>
-            <div className=""><img src="../assets/home/sleepreview.png" alt="" /></div>
-            <div className=""><img src="../assets/home/influencive.png" alt="" /></div>
+            <div className=""><img src={forbes} alt="" /></div>
+            <div className=""><img src={bloomberg} alt="" /></div>
+            <div className=""><img src={sleepreview} alt="" /></div>
+            <div className=""><img src={influencive} alt="" /></div>
         </section>
     </section>
   )
