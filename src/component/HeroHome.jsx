@@ -13,10 +13,10 @@ const HeroHome = ({data}) => {
         </section>
         <section className='flex items-center justify-between gap-10 mt-[10rem] bg-white border px-5 py-5'>
             <div className=""><img src={google} alt="" /></div>
-            <div className=""><img src="/./src/assets/home/forbes.png" alt="" /></div>
-            <div className=""><img src="/./src/assets/home/bloomberg.png" alt="" /></div>
-            <div className=""><img src="/./src/assets/home/sleepreview.png" alt="" /></div>
-            <div className=""><img src="/./src/assets/home/influencive.png" alt="" /></div>
+            <div className=""><img src="../assets/home/forbes.png" alt="" /></div>
+            <div className=""><img src="../assets/home/bloomberg.png" alt="" /></div>
+            <div className=""><img src="../assets/home/sleepreview.png" alt="" /></div>
+            <div className=""><img src="../assets/home/influencive.png" alt="" /></div>
         </section>
     </section>
   )
