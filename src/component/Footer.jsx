@@ -5,13 +5,14 @@ import {BiLogoFacebook } from "react-icons/bi";
 import { FaTwitter } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import sleepstiqq from "../assets/home/sleepstiqq.png"
 
 const Footer = () => {
     const styles = {color: "#12305b", fontSize: "1.5rem"}
     return(
         <footer className='py-[2.3rem] px-[2.3rem] text-[#FFFFFF]'>
             <section className='flex justify-center mb-[2.3rem]'>
-                <img className="w-[6rem]" src="/src/assets/home/sleepstiqq.png" alt="" />
+                <img className="w-[6rem]" src={sleepstiqq} alt="" />
             </section>
             <section className='flex justify-around custom-footer:gap-2'>
                 <section className='flex gap-[4rem] custom-footer:grid'>
