@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Header from './Header'
 import HeroSection from "./HeroSection"
 import { useLocation } from 'react-router-dom'
+import heroimage from "../assets/home/heroimage.png"
+import heroimg from "../assets/shop/heroimg.png"
 
 const HeaderHero = () => {
   const currentPage = useLocation();
@@ -15,16 +17,16 @@ const HeaderHero = () => {
     switch(removePath) {
 
       case "home":
-        return "../assets/home/heroimage.png";
+        return heroimage;
         
       case "shop":
-        return "../assets/shop/heroimg.png";
+        return heroimg;
 
       case "faq":
         return "#FBF9F2";
 
       default:
-        return "../assets/shop/heroimg.png";
+        return heroimg;
     }
   }
 
