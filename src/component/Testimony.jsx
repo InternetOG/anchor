@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Marquee from "react-fast-marquee";
-import Swiper from 'swiper/bundle';
-import 'swiper/css/bundle';
-import Slider from 'react-slick/lib/slider';
 import MoreTestimony from './MoreTestimony';
 import miller from "../assets/home/miller.png"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Autoplay } from 'swiper/modules';  // Explicitly import Swiper modules
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 
 const Testimony = () => {
@@ -22,19 +23,45 @@ const Testimony = () => {
             </section>
 
             <section className='flex justify-center custom-story:pr-[2.3rem] custom-storyMiniPro:mt-[2rem]'>
-                <article className='bg-[#FBF9F2] px-[2rem] py-[2rem] max-w-[400px] custom-storyMini:max-w-[400px]'>
-                    <p className='text-[#4D533C]'><i>I’m a very anxious person but use this and feel so relaxed and sleep way better now with the aid of sleepstiq. </i></p>
-                    <section className='flex items-center gap-5 mt-6'>
-                        <div>
-                            <img src={miller} className='rounded-full' alt="miller's img" />
-                        </div>
+                <Swiper
+                    spaceBetween={30}
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}  // Enable auto-slide
+                    modules={[Pagination, Autoplay]}
+                    className="mySwiper max-w-[400px]"
+                >
+                    <SwiperSlide>
+                        <article className='bg-[#FBF9F2] px-[2rem] py-[2rem] max-w-[400px] custom-storyMini:max-w-[400px]'>
+                            <p className='text-[#4D533C]'><i>I’m a very anxious person but use this and feel so relaxed and sleep way better now with the aid of sleepstiq. </i></p>
+                            <section className='flex items-center gap-5 mt-6'>
+                                <div>
+                                    <img src={miller} className='rounded-full' alt="miller's img" />
+                                </div>
 
-                        <div>
-                            <h3 className='text-[#4D533C]'>James Miller</h3>
-                            <p className='text-[#152934]'>CEO, Techbias</p>
-                        </div>
-                    </section>
-                </article>
+                                <div>
+                                    <h3 className='text-[#4D533C]'>James Miller</h3>
+                                    <p className='text-[#152934]'>CEO, Techbias</p>
+                                </div>
+                            </section>
+                        </article>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <article className='bg-[#FBF9F2] px-[2rem] py-[2rem] max-w-[400px] custom-storyMini:max-w-[400px]'>
+                            <p className='text-[#4D533C]'><i>I’m a very anxious person but use this and feel so relaxed and sleep way better now with the aid of sleepstiq. </i></p>
+                            <section className='flex items-center gap-5 mt-6'>
+                                <div>
+                                    <img src={miller} className='rounded-full' alt="miller's img" />
+                                </div>
+
+                                <div>
+                                    <h3 className='text-[#4D533C]'>James Miller</h3>
+                                    <p className='text-[#152934]'>CEO, Techbias</p>
+                                </div>
+                            </section>
+                        </article>
+                    </SwiperSlide>
+                </Swiper>
             </section>
         </section>
         <MoreTestimony />

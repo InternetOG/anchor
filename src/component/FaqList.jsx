@@ -5,7 +5,7 @@ const FaqList = ({faqDataItem, isActive, onClick}) => {
 
   return (
     <>
-        <li className='border-t p-3 grid w-full' onClick={onClick}>
+        <li className='border-t p-3 grid w-full cursor-pointer' onClick={onClick}>
             {faqDataItem.question}
             <span className={`${isActive ? "grid" : "hidden"} pt-2`}>{faqDataItem.answer}</span>
         </li>

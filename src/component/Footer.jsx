@@ -64,7 +64,7 @@ const Footer = () => {
                     </section>
 
                     <section className='custom-footer:flex custom-footer:justify-items-start '>
-                        <div className='custom-footer:justify-items-start'>
+                        <div className='custom-footer:justify-items-start border-l'>
                             <h3 className='font-semibold'>GET IN TOUCH</h3>
                             <ul className='grid gap-[1.5rem] mt-[1rem] '>
                                 <li className='text-[#ABABAB]'>Feel free to get in touch with us vai email</li>
