@@ -12,7 +12,7 @@ const Footer = () => {
     return(
         <footer className='py-[2.3rem] px-[2.3rem] text-[#FFFFFF]'>
             <section className='flex justify-center mb-[2.3rem]'>
-                <img className="w-[6rem]" src={sleepstiqq} alt="" />
+                <img className="w-[6rem]" src="" alt="" />
             </section>
             <section className='flex justify-around custom-footer:gap-2'>
                 <section className='flex gap-[4rem] custom-footer:grid'>
