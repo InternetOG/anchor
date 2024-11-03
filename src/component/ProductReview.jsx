@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoStarSharp } from 'react-icons/io5'
+import product1 from {product1}
 
 const ProductReview = () => {
   return (
@@ -7,7 +8,7 @@ const ProductReview = () => {
         <h2 className='text-[#12305B] text-2xl font-[700]'>Product Review</h2>
         <section className="flex gap-[1rem] custom-story:grid custom-story:grid-cols-2">
             <article className="pb-5 shadow-[50px_50px_100px_0px_#00000025] bg-[#fbfbfb]">
-                <img src="/src/assets/home/product1.png" alt="" />
+                <img src={product1} alt="" />
                 <div className='px-[3rem] pt-[3rem] bg-[#fbfbfb] custom-storyMiniPro:px-[1rem]'>
                     <p>Works great! Just use it and then relax, I fall asleep with no problem every time I use it.</p>
                     <h3 className="mt-4">Rachel Dill</h3>
@@ -22,7 +23,7 @@ const ProductReview = () => {
             </article>
 
             <article className="pb-5 shadow-[50px_50px_100px_0px_#00000025] bg-[#fbfbfb]">
-                <img src="/src/assets/home/product1.png" alt="" />
+                <img src={product1} alt="" />
                 <div className='px-[3rem] pt-[3rem] bg-[#fbfbfb] custom-storyMiniPro:px-[1rem]'>
                     <p>Works great! Just use it and then relax, I fall asleep with no problem every time I use it.</p>
                     <h3 className="mt-4">Rachel Dill</h3>
@@ -37,7 +38,7 @@ const ProductReview = () => {
             </article>
 
             <article className="pb-5 shadow-[50px_50px_100px_0px_#00000025] bg-[#fbfbfb]">
-                <img src="/src/assets/home/product1.png" alt="" />
+                <img src={product1} alt="" />
                 <div className='px-[3rem] pt-[3rem] bg-[#fbfbfb] custom-storyMiniPro:px-[1rem]'>
                     <p>Works great! Just use it and then relax, I fall asleep with no problem every time I use it.</p>
                     <h3  className="mt-4">Rachel Dill</h3>
@@ -52,7 +53,7 @@ const ProductReview = () => {
             </article>
 
             <article className="pb-5 shadow-[50px_50px_100px_0px_#00000025] bg-[#fbfbfb]">
-                <img src="/src/assets/home/product1.png" alt="" />
+                <img src={product1} alt="" />
                 <div className='px-[3rem] pt-[3rem] bg-[#fbfbfb] custom-storyMiniPro:px-[1rem]'>
                     <p>Works great! Just use it and then relax, I fall asleep with no problem every time I use it.</p>
                     <h3 className="mt-4">Rachel Dill</h3>

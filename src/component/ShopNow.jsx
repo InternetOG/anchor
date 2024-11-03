@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import group3 from "../assets/home/Group 3.png"
 
 const ShopNow = () => {
   return (
     <section className='flex gap-[2rem] pl-[6.3rem] custom-storyMiniPro:grid custom-story:px-[2.3rem] '>
         <div className='w-[50%] custom-storyMiniPro:w-[100%]'>
-            <img src="/src/assets/home/Group 3.png" alt="" />
+            <img src={group3} alt="" />
         </div>
         <section className='flex w-[40%] justify-center custom-storyMiniPro:w-[100%]'>
             <article className='grid items-center'>

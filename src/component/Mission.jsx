@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import missionimage from "../assets/home/missionimage.png"
 
 const Mission = () => {
   return (
@@ -21,7 +22,7 @@ const Mission = () => {
             </div>
             <div className='w-[50%] custom-storyMini:w-[60%] custom-storyMiniPro:w-full custom-storyMiniPro:mt-[2rem]'>
                 <div className=' float-right w-full'>
-                    <img src="/src/assets/home/missionimage.png" width="100%" alt="" />
+                    <img src={missionimage} width="100%" alt="" />
                 </div>
             </div>
         </article>

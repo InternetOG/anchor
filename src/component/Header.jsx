@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "./Header.css"
+import sleepstiq from "../assets/home/sleepstiq.png"
 
 const Header = ({currentpage}) => {
     const [display, setDisplay] = useState(false);
@@ -15,7 +16,7 @@ const Header = ({currentpage}) => {
             <section className="flex items-center custom-max:justify-between custom-max:grid custom-max:grid-cols-2 custom-max:gap-5 custom-min:gap-[8rem]">
                 <div className="">
                     <Link to="/">
-                        <img className="w-20" src="src/assets/home/sleepstiq.png" alt="sleepstiq logo" />
+                        <img className="w-20" src={sleepstiq} alt="sleepstiq logo" />
                     </Link>
                 </div>
 

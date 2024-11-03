@@ -15,16 +15,16 @@ const HeaderHero = () => {
     switch(removePath) {
 
       case "home":
-        return "/assets/home/heroimage.png";
+        return "../assets/home/heroimage.png";
         
       case "shop":
-        return "/assets/shop/heroimg.png";
+        return "../assets/shop/heroimg.png";
 
       case "faq":
         return "#FBF9F2";
 
       default:
-        return "/assets/shop/heroimg.png";
+        return "../assets/shop/heroimg.png";
     }
   }
 

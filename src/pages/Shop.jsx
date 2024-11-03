@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import MoreTestimony from '../component/MoreTestimony'
+import vapePen from "../assets/shop/Vape-Pen 1.png"
 
 const Shop = () => {
   return (
     <>
       <section className='flex gap-[6rem] pl-[6.3rem] custom-storyMiniPro:grid custom-story:px-[2.3rem] pt-12 text-[#12305B]'>
         <div className='w-[40%] custom-storyMiniPro:w-[100%]'>
-            <img width="100%" src="/src/assets/shop/Vape-Pen 1.png" alt="" />
+            <img width="100%" src={vapePen} alt="" />
         </div>
         <section className='flex w-[50%] justify-center custom-storyMiniPro:w-[100%]'>
             <article className='grid items-center'>
