@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoStarSharp } from 'react-icons/io5'
-import product1 from {product1}
+import product1 from "../assets/home/product1.png"
 
 const ProductReview = () => {
   return (
